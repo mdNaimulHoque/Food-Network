@@ -3,13 +3,23 @@ body {
     margin: 0;
 }
 
-h1 {
+h2 {
     font-weight: 700;
     font-size: 50px;
 }
 
+h3 {
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    color:#707070;
+}
+
 p {
-    color: #828282;;
+    color: #828282;
+    font-size: 20px;
 }
 
 .highlight {
@@ -24,7 +34,6 @@ section {
     width: 50%;
     padding-left: 5%;
     padding-top: 5%;
-    border: 1px solid red;
 }
 
 .half-width img {
@@ -38,3 +47,10 @@ section {
     border-radius: 100px;
     background-image: linear-gradient(80deg, #FBA24F,  #FF1E1E);
 }
+
+.about-section {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
